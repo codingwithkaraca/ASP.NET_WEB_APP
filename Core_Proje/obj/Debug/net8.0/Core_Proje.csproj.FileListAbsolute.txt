@@ -108,3 +108,4 @@
 /Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/obj/Debug/net8.0/Core_Proje.pdb
 /Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/obj/Debug/net8.0/Core_Proje.genruntimeconfig.cache
 /Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/obj/Debug/net8.0/ref/Core_Proje.dll
+/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/obj/Debug/net8.0/Core_Proje.sourcelink.json

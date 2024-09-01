@@ -17,3 +17,4 @@
 /Users/alperkaraca/RiderProjects/WebApplication1/BusinessLayer/obj/Debug/net8.0/BusinessLayer.pdb
 /Users/alperkaraca/RiderProjects/WebApplication1/BusinessLayer/obj/Debug/net8.0/BusinessLayer.genruntimeconfig.cache
 /Users/alperkaraca/RiderProjects/WebApplication1/BusinessLayer/obj/Debug/net8.0/ref/BusinessLayer.dll
+/Users/alperkaraca/RiderProjects/WebApplication1/BusinessLayer/obj/Debug/net8.0/BusinessLayer.sourcelink.json
