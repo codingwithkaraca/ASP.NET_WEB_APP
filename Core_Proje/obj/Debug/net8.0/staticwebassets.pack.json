@@ -5,6 +5,418 @@
       "PackagePath": "staticwebassets/Core_Proje.bundle.scp.css"
     },
     {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/LICENSE-free.txt",
+      "PackagePath": "staticwebassets/Template/LICENSE-free.txt"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/README.txt",
+      "PackagePath": "staticwebassets/Template/README.txt"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/aos.css",
+      "PackagePath": "staticwebassets/Template/css/aos.css"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/bootstrap-icons/bootstrap-icons.css",
+      "PackagePath": "staticwebassets/Template/css/bootstrap-icons/bootstrap-icons.css"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/bootstrap-icons/bootstrap-icons.json",
+      "PackagePath": "staticwebassets/Template/css/bootstrap-icons/bootstrap-icons.json"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/bootstrap-icons/fonts/bootstrap-icons.woff",
+      "PackagePath": "staticwebassets/Template/css/bootstrap-icons/fonts/bootstrap-icons.woff"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/bootstrap-icons/fonts/bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets/Template/css/bootstrap-icons/fonts/bootstrap-icons.woff2"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/bootstrap-icons/index.html",
+      "PackagePath": "staticwebassets/Template/css/bootstrap-icons/index.html"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/bootstrap.css",
+      "PackagePath": "staticwebassets/Template/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/Template/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/Template/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/font-awesome/LICENSE.txt",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/font-awesome/css/all.css",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/css/all.css"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/font-awesome/css/all.min.css",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/css/all.min.css"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/font-awesome/css/brands.css",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/css/brands.css"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/font-awesome/css/brands.min.css",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/css/brands.min.css"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/font-awesome/css/fontawesome.css",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/css/fontawesome.css"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/font-awesome/css/fontawesome.min.css",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/css/fontawesome.min.css"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/font-awesome/css/regular.css",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/css/regular.css"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/font-awesome/css/regular.min.css",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/css/regular.min.css"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/font-awesome/css/solid.css",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/css/solid.css"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/font-awesome/css/solid.min.css",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/css/solid.min.css"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/font-awesome/css/svg-with-js.css",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/css/svg-with-js.css"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/font-awesome/css/svg-with-js.min.css",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/css/svg-with-js.min.css"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/font-awesome/css/v4-shims.css",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/css/v4-shims.css"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/font-awesome/css/v4-shims.min.css",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/css/v4-shims.min.css"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/font-awesome/webfonts/fa-brands-400.eot",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/webfonts/fa-brands-400.eot"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/font-awesome/webfonts/fa-brands-400.svg",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/webfonts/fa-brands-400.svg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/font-awesome/webfonts/fa-brands-400.ttf",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/webfonts/fa-brands-400.ttf"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/font-awesome/webfonts/fa-brands-400.woff",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/webfonts/fa-brands-400.woff"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/font-awesome/webfonts/fa-brands-400.woff2",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/webfonts/fa-brands-400.woff2"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/font-awesome/webfonts/fa-regular-400.eot",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/webfonts/fa-regular-400.eot"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/font-awesome/webfonts/fa-regular-400.svg",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/webfonts/fa-regular-400.svg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/font-awesome/webfonts/fa-regular-400.ttf",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/webfonts/fa-regular-400.ttf"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/font-awesome/webfonts/fa-regular-400.woff",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/webfonts/fa-regular-400.woff"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/font-awesome/webfonts/fa-regular-400.woff2",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/webfonts/fa-regular-400.woff2"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/font-awesome/webfonts/fa-solid-900.eot",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/webfonts/fa-solid-900.eot"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/font-awesome/webfonts/fa-solid-900.svg",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/webfonts/fa-solid-900.svg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/font-awesome/webfonts/fa-solid-900.ttf",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/webfonts/fa-solid-900.ttf"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/font-awesome/webfonts/fa-solid-900.woff",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/webfonts/fa-solid-900.woff"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/font-awesome/webfonts/fa-solid-900.woff2",
+      "PackagePath": "staticwebassets/Template/css/font-awesome/webfonts/fa-solid-900.woff2"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/css/main.css",
+      "PackagePath": "staticwebassets/Template/css/main.css"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/favicon.ico",
+      "PackagePath": "staticwebassets/Template/favicon.ico"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/avatar.jpg",
+      "PackagePath": "staticwebassets/Template/images/avatar.jpg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/clients/client1.png",
+      "PackagePath": "staticwebassets/Template/images/clients/client1.png"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/clients/client2.png",
+      "PackagePath": "staticwebassets/Template/images/clients/client2.png"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/clients/client3.png",
+      "PackagePath": "staticwebassets/Template/images/clients/client3.png"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/clients/client4.png",
+      "PackagePath": "staticwebassets/Template/images/clients/client4.png"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/clients/client5.png",
+      "PackagePath": "staticwebassets/Template/images/clients/client5.png"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/clients/client6.png",
+      "PackagePath": "staticwebassets/Template/images/clients/client6.png"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/clients/client7.png",
+      "PackagePath": "staticwebassets/Template/images/clients/client7.png"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/illustrations/building_websites.svg",
+      "PackagePath": "staticwebassets/Template/images/illustrations/building_websites.svg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/illustrations/creative-team.svg",
+      "PackagePath": "staticwebassets/Template/images/illustrations/creative-team.svg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/illustrations/development.svg",
+      "PackagePath": "staticwebassets/Template/images/illustrations/development.svg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/illustrations/hello.svg",
+      "PackagePath": "staticwebassets/Template/images/illustrations/hello.svg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/illustrations/hello2.svg",
+      "PackagePath": "staticwebassets/Template/images/illustrations/hello2.svg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/illustrations/hello3.svg",
+      "PackagePath": "staticwebassets/Template/images/illustrations/hello3.svg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/illustrations/hello4.svg",
+      "PackagePath": "staticwebassets/Template/images/illustrations/hello4.svg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/illustrations/website-app.svg",
+      "PackagePath": "staticwebassets/Template/images/illustrations/website-app.svg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/illustrations/work-chat.svg",
+      "PackagePath": "staticwebassets/Template/images/illustrations/work-chat.svg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/illustrations/work-together.svg",
+      "PackagePath": "staticwebassets/Template/images/illustrations/work-together.svg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/marker.svg",
+      "PackagePath": "staticwebassets/Template/images/marker.svg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/portfolio/1-small.png",
+      "PackagePath": "staticwebassets/Template/images/portfolio/1-small.png"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/portfolio/1.jpg",
+      "PackagePath": "staticwebassets/Template/images/portfolio/1.jpg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/portfolio/2-small.png",
+      "PackagePath": "staticwebassets/Template/images/portfolio/2-small.png"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/portfolio/2.jpg",
+      "PackagePath": "staticwebassets/Template/images/portfolio/2.jpg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/portfolio/3-small.png",
+      "PackagePath": "staticwebassets/Template/images/portfolio/3-small.png"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/portfolio/3.jpg",
+      "PackagePath": "staticwebassets/Template/images/portfolio/3.jpg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/portfolio/4-small.png",
+      "PackagePath": "staticwebassets/Template/images/portfolio/4-small.png"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/portfolio/4.jpg",
+      "PackagePath": "staticwebassets/Template/images/portfolio/4.jpg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/portfolio/5-small.png",
+      "PackagePath": "staticwebassets/Template/images/portfolio/5-small.png"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/portfolio/5.jpg",
+      "PackagePath": "staticwebassets/Template/images/portfolio/5.jpg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/portfolio/6-small.png",
+      "PackagePath": "staticwebassets/Template/images/portfolio/6-small.png"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/portfolio/6.jpg",
+      "PackagePath": "staticwebassets/Template/images/portfolio/6.jpg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/portfolio/7-small.png",
+      "PackagePath": "staticwebassets/Template/images/portfolio/7-small.png"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/portfolio/7.jpg",
+      "PackagePath": "staticwebassets/Template/images/portfolio/7.jpg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/portfolio/8-small.png",
+      "PackagePath": "staticwebassets/Template/images/portfolio/8-small.png"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/portfolio/8.jpg",
+      "PackagePath": "staticwebassets/Template/images/portfolio/8.jpg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/services/app-development.svg",
+      "PackagePath": "staticwebassets/Template/images/services/app-development.svg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/services/full-stack.svg",
+      "PackagePath": "staticwebassets/Template/images/services/full-stack.svg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/services/graphic-design.svg",
+      "PackagePath": "staticwebassets/Template/images/services/graphic-design.svg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/services/ui-ux.svg",
+      "PackagePath": "staticwebassets/Template/images/services/ui-ux.svg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/services/web-design.svg",
+      "PackagePath": "staticwebassets/Template/images/services/web-design.svg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/team/emp-1.jpg",
+      "PackagePath": "staticwebassets/Template/images/team/emp-1.jpg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/team/emp-2.jpg",
+      "PackagePath": "staticwebassets/Template/images/team/emp-2.jpg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/team/emp-3.jpg",
+      "PackagePath": "staticwebassets/Template/images/team/emp-3.jpg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/team/emp-4.jpg",
+      "PackagePath": "staticwebassets/Template/images/team/emp-4.jpg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/team/emp-5.jpg",
+      "PackagePath": "staticwebassets/Template/images/team/emp-5.jpg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/team/emp-6.jpg",
+      "PackagePath": "staticwebassets/Template/images/team/emp-6.jpg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/testimonials/client1.jpg",
+      "PackagePath": "staticwebassets/Template/images/testimonials/client1.jpg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/testimonials/client2.jpg",
+      "PackagePath": "staticwebassets/Template/images/testimonials/client2.jpg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/testimonials/client3.jpg",
+      "PackagePath": "staticwebassets/Template/images/testimonials/client3.jpg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/testimonials/client4.jpg",
+      "PackagePath": "staticwebassets/Template/images/testimonials/client4.jpg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/images/wave-bg.svg",
+      "PackagePath": "staticwebassets/Template/images/wave-bg.svg"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/index.html",
+      "PackagePath": "staticwebassets/Template/index.html"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/scripts/BigPicture.min.js",
+      "PackagePath": "staticwebassets/Template/scripts/BigPicture.min.js"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/scripts/aos.min.js",
+      "PackagePath": "staticwebassets/Template/scripts/aos.min.js"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/scripts/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/Template/scripts/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/scripts/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/Template/scripts/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/scripts/imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets/Template/scripts/imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/scripts/main.js",
+      "PackagePath": "staticwebassets/Template/scripts/main.js"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/scripts/masonry.pkgd.min.js",
+      "PackagePath": "staticwebassets/Template/scripts/masonry.pkgd.min.js"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/Template/scripts/purecounter.min.js",
+      "PackagePath": "staticwebassets/Template/scripts/purecounter.min.js"
+    },
+    {
       "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
