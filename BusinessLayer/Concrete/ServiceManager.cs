@@ -4,7 +4,7 @@ using EntityLayer.Concrete;
 
 namespace BusinessLayer.Concrete;
 
-public class ServiceManager:IServiceService
+public class ServiceManager: IServiceService
 {
     IServiceDal _serviceDal;
 

@@ -4,7 +4,7 @@ using EntityLayer.Concrete;
 
 namespace BusinessLayer.Concrete;
 
-public class MessageManager:IMessageService
+public class MessageManager: IMessageService
 {
     IMessageDal _messageDal;
 
