@@ -28,6 +28,8 @@
 
     <ItemGroup>
       <Folder Include="Views\Admin\" />
+      <Folder Include="Views\Experience\" />
+      <Folder Include="Views\Portfolio\" />
     </ItemGroup>
 
 </Project>

@@ -1,0 +1,57 @@
+﻿@using EntityLayer.Concrete
+@model List<Portfolio>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_AdminLayout";
+}
+
+
+<div class="row">
+    <div class="col">
+        <div class="card bg-default shadow">
+            <div class="card-header bg-transparent border-0">
+                <h3 class="text-white mb-0">Projelerim</h3>
+            </div>
+            <div class="table-responsive">
+                <table class="table align-items-center table-dark table-flush">
+                    <thead class="thead-dark">
+                    <tr>
+                        <th scope="col" class="sort" data-sort="name">#</th>
+                        <th scope="col" class="sort" data-sort="name">Proje Başlığı</th>
+                        <th scope="col" class="sort" data-sort="budget">Görsel 1</th>
+                        <th scope="col" class="sort" data-sort="status">Görsel 2</th>
+                        <th scope="col" class="sort" data-sort="status">Proje URL</th>
+                        <th scope="col"></th>
+                    </tr>
+                    </thead>
+                    <tbody class="list">
+
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <th scope="row">
+                                @item.PortfolioID
+                            </th>
+                            <th class="budget">
+                                @item.Name
+                            </th>
+                            <td>
+                                @item.ImageUrl
+                            </td>
+                            <td>
+                                @item.ImageUrl2
+                            </td>
+                            <td>
+                                @item.ProjectUrl
+                            </td>
+                        </tr>
+                    }
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</div>
+<a href="/Portfolio/AddPortfolio" class="btn btn-primary">Yeni Proje Girişi</a>
