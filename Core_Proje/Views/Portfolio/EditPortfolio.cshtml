@@ -6,23 +6,27 @@
 
 
 <div class="card-header border-0">
-    <h3 class="mb-0">Portfolio Düzenleme Sayfası</h3>
+    <h3 class="mb-0">Proje Düzenleme Sayfası</h3>
 </div>
 @using (Html.BeginForm("EditPortfolio", "Portfolio", FormMethod.Post))
 {
     @Html.HiddenFor(x => x.PortfolioID)
-    <br/>
+    <br />
     @Html.Label("Portfolio/Proje Başlığı")
     @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.Name);
     <br/>
-    <label>Proje İmage URL</label>
+    <label>Görsel 1</label>
     @Html.TextBoxFor(x => x.ImageUrl, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.ImageUrl)
     <br/>
-    <label>Proje İmage URL2</label>
+    <label>Görsel 2</label>
     @Html.TextBoxFor(x => x.ImageUrl2, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.ImageUrl2)
     <br/>
-    <label>Proje Linki</label>
+    <label>Proje URL</label>
     @Html.TextBoxFor(x => x.ProjectUrl, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.ProjectUrl)
     <br/>
     <button class="btn btn-outline-success">Güncelle</button>
 }

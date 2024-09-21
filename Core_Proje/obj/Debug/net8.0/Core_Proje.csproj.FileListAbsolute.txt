@@ -109,6 +109,10 @@
 /Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/obj/Debug/net8.0/Core_Proje.genruntimeconfig.cache
 /Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/obj/Debug/net8.0/ref/Core_Proje.dll
 /Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/obj/Debug/net8.0/Core_Proje.sourcelink.json
+/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/bin/Debug/net8.0/FluentValidation.dll
+/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/bin/Debug/net8.0/FluentValidation.AspNetCore.dll
+/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/bin/Debug/net8.0/FluentValidation.DependencyInjectionExtensions.dll
+/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/obj/Debug/net8.0/Core_Proje.MvcApplicationPartsAssemblyInfo.cs
 /Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/bin/Debug/net8.0/Microsoft.AspNetCore.Razor.Language.dll
 /Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/bin/Debug/net8.0/Microsoft.Build.dll
 /Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/bin/Debug/net8.0/Microsoft.Build.Framework.dll

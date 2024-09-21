@@ -21,7 +21,8 @@
                         <th scope="col" class="sort" data-sort="budget">Görsel 1</th>
                         <th scope="col" class="sort" data-sort="status">Görsel 2</th>
                         <th scope="col" class="sort" data-sort="status">Proje URL</th>
-                        <th scope="col"></th>
+                        <th scope="col">Sil</th>
+                        <th scope="col">Düzenle</th>
                     </tr>
                     </thead>
                     <tbody class="list">
@@ -43,6 +44,12 @@
                             </td>
                             <td>
                                 @item.ProjectUrl
+                            </td>
+                            <td>
+                                <a href="/Portfolio/DeletePortfolio/@item.PortfolioID" class="btn btn-outline-danger">Sil</a>
+                            </td>
+                            <td>
+                                <a href="/Portfolio/EditPortfolio/@item.PortfolioID" class="btn btn-outline-info">Düzenle</a>
                             </td>
                         </tr>
                     }
