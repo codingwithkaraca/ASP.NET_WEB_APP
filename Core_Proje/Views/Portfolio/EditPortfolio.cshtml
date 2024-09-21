@@ -1,32 +1,47 @@
 ﻿@model EntityLayer.Concrete.Portfolio
 @{
     ViewData["Title"] = "EditPortfolio";
-    Layout = "_AdminLayout";
+    Layout = "_NewAdminLayout";
 }
 
-
-<div class="card-header border-0">
-    <h3 class="mb-0">Proje Düzenleme Sayfası</h3>
-</div>
 @using (Html.BeginForm("EditPortfolio", "Portfolio", FormMethod.Post))
 {
-    @Html.HiddenFor(x => x.PortfolioID)
-    <br />
-    @Html.Label("Portfolio/Proje Başlığı")
-    @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
-    @Html.ValidationMessageFor(x => x.Name);
-    <br/>
-    <label>Görsel 1</label>
-    @Html.TextBoxFor(x => x.ImageUrl, new { @class = "form-control" })
-    @Html.ValidationMessageFor(x => x.ImageUrl)
-    <br/>
-    <label>Görsel 2</label>
-    @Html.TextBoxFor(x => x.ImageUrl2, new { @class = "form-control" })
-    @Html.ValidationMessageFor(x => x.ImageUrl2)
-    <br/>
-    <label>Proje URL</label>
-    @Html.TextBoxFor(x => x.ProjectUrl, new { @class = "form-control" })
-    @Html.ValidationMessageFor(x => x.ProjectUrl)
-    <br/>
-    <button class="btn btn-outline-success">Güncelle</button>
+    
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <p class="card-description">Portolyo Düzenleme</p>
+                <form class="forms-sample">
+
+                    <div class="form-group">
+                        <label>Id</label>
+                        @Html.TextBoxFor(x => x.PortfolioID, new {@class="form-control"})
+                    </div>
+
+                    <div class="form-group">
+                        <label>Proje İsmi</label>
+                        @Html.TextBoxFor(x => x.Name, new {@class="form-control"})
+                    </div>
+
+                    <div class="form-group">
+                        <label>Görsel 1 URL</label>
+                        @Html.TextBoxFor(x => x.ImageUrl, new {@class="form-control"})
+                    </div>
+                    <div class="form-group">
+                        <label>Görsel 2 URL</label>
+                        @Html.TextBoxFor(x => x.ImageUrl2, new {@class="form-control"})
+                    </div>
+
+                    <div class="form-group">
+                        <label>Proje URL</label>
+                        @Html.TextBoxFor(x => x.ProjectUrl, new {@class="form-control"})
+                    </div>
+
+                    <button type="submit" class="btn btn-primary mr-2">Kaydet</button>
+                    <button class="btn btn-dark" href="/Experience/Index">İptal</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
 }

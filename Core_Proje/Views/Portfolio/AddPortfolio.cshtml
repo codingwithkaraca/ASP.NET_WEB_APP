@@ -1,31 +1,37 @@
 ﻿@model EntityLayer.Concrete.Portfolio
 @{
     ViewData["Title"] = "AddPortfolio";
-    Layout = "_AdminLayout";
+    Layout = "_NewAdminLayout";
 }
 
 
-<div class="card-header border-0">
-    <h3 class="mb-0">Proje Ekleme Sayfası</h3>
-</div>
 @using (Html.BeginForm("AddPortfolio", "Portfolio", FormMethod.Post))
 {
-<br/>
-@Html.Label("Proje Başlığı")
-@Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
-@Html.ValidationMessageFor(x => x.Name);
-<br/>
-<label>Görsel 1</label>
-@Html.TextBoxFor(x => x.ImageUrl, new { @class = "form-control" })
-@Html.ValidationMessageFor(x=> x.ImageUrl);
-<br/>
-<label>Görsel 2</label>
-@Html.TextBoxFor(x => x.ImageUrl2, new { @class = "form-control" })
-@Html.ValidationMessageFor(x => x.ImageUrl2);
-<br/>
-<label>Proje URL</label>
-@Html.TextBoxFor(x => x.ProjectUrl, new { @class = "form-control" })
-@Html.ValidationMessageFor(x => x.ProjectUrl);
-<br/>
-<button class="btn btn-success">Kaydet</button>
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <p class="card-description"> Yeni Proje Ekleme</p>
+                <form class="forms-sample">
+                    <div class="form-group">
+                        <label for="Title">Başlık</label>
+                        <input type="text" class="form-control" name="Name">
+                    </div>
+                    <div class="form-group">
+                        <label>Görsel URL</label>
+                        <input type="text" class="form-control" name="ImageUrl">
+                    </div>
+                    <div class="form-group">
+                        <label>Görsel 2 URL</label>
+                        <input type="text" class="form-control" name="ImageUrl2">
+                    </div>
+                    <div class="form-group">
+                        <label>Proje URL</label>
+                        <input type="text" class="form-control" name="ProjectUrl">
+                    </div>
+                    <button type="submit" class="btn btn-primary mr-2">Kaydet</button>
+                    <button class="btn btn-dark" href="/Portfolio/Index">İptal</button>
+                </form>
+            </div>
+        </div>
+    </div>
 }

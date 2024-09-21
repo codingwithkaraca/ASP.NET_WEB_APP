@@ -11,9 +11,8 @@ namespace Core_Proje.Controllers
         // GET: ExperienceController
         public ActionResult Index()
         {
-            ViewBag.v1 = "Deneyim Listesi";
-            ViewBag.v2 = "Deneyimler";
-            ViewBag.v3 = "Deneyim Listesi";
+            ViewBag.v1 = "Deneyimler";
+            ViewBag.v2 = "Deneyim Listesi";
             
             var values = experienceManager.TGetList();
             return View(values);
@@ -22,9 +21,8 @@ namespace Core_Proje.Controllers
         [HttpGet]
         public IActionResult AddExperience()
         {
-            ViewBag.v1 = "Deneyim Listesi";
-            ViewBag.v2 = "Deneyimler";
-            ViewBag.v3 = "Deneyim Listesi";
+            ViewBag.v1 = "Deneyimler";
+            ViewBag.v2 = "Deneyim Ekleme";
             
             return View();
         }
@@ -49,9 +47,8 @@ namespace Core_Proje.Controllers
         [HttpGet]
         public IActionResult EditExperience(int id)
         {
-            ViewBag.v1 = "Güncelleme";
-            ViewBag.v2 = "Deneyimler";
-            ViewBag.v3 = "Deneyim Güncelleme";
+            ViewBag.v1 = "Deneyimler";
+            ViewBag.v2 = "Deneyim Güncelleme";
             
             var values = experienceManager.TGetById(id);
             return View(values);
