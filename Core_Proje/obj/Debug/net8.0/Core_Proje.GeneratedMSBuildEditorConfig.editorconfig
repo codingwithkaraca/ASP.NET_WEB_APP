@@ -34,6 +34,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vTmF2aWdhdGlvblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Views/Admin/NewSideBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vTmV3U2lkZUJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Views/Admin/PartialFooter.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vUGFydGlhbEZvb3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -138,6 +142,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvRmVhdHVyZUxpc3QvRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Views/Shared/Components/FeatureStatistics/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvRmVhdHVyZVN0YXRpc3RpY3MvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Views/Shared/Components/LatestProjects/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvTGF0ZXN0UHJvamVjdHMvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Views/Shared/Components/PortfolioList/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvUG9ydGZvbGlvTGlzdC9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -148,6 +160,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Views/Shared/Components/SkillList/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvU2tpbGxMaXN0L0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Views/Shared/Components/StatisticsDashboard2/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvU3RhdGlzdGljc0Rhc2hib2FyZDIvRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Views/Shared/Components/TestimonialList/Default.cshtml]

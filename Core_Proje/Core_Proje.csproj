@@ -29,11 +29,10 @@
 
     <ItemGroup>
       <Folder Include="Views\About\" />
-      <Folder Include="Views\Admin\" />
-      <Folder Include="Views\Dashboard\" />
       <Folder Include="Views\Experience\" />
       <Folder Include="Views\Portfolio\" />
       <Folder Include="Views\Service\" />
+      <Folder Include="Views\Shared\Components\StatisticsDashboard2\" />
       <Folder Include="Views\Test\" />
     </ItemGroup>
 
