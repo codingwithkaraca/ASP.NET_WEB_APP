@@ -34,7 +34,10 @@
       <Folder Include="Views\Service\" />
       <Folder Include="Views\Shared\Components\MessageList\" />
       <Folder Include="Views\Shared\Components\ProjectList\" />
+      <Folder Include="Views\Shared\Components\SlideList\" />
       <Folder Include="Views\Shared\Components\StatisticsDashboard2\" />
+      <Folder Include="Views\Shared\Components\TodoList\" />
+      <Folder Include="Views\Shared\Components\VisitorMap\" />
       <Folder Include="Views\Test\" />
     </ItemGroup>
 

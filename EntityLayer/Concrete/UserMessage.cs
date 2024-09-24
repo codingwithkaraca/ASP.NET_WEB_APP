@@ -1,6 +1,15 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace EntityLayer.Concrete;
 
 public class UserMessage
 {
-    
+    [Key]
+    public int MessageID { get; set; }
+    public string Title { get; set; }
+    public string Content { get; set; }
+    public DateTime Date { get; set; }
+    public bool Status { get; set; }
+    public int UserID { get; set; }
+    public User User { get; set; }
 }
