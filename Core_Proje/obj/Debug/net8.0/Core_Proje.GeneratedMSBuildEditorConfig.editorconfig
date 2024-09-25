@@ -26,6 +26,34 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Areas/Writer/Views/Default/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvV3JpdGVyL1ZpZXdzL0RlZmF1bHQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Areas/Writer/Views/Default/_FooterPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvV3JpdGVyL1ZpZXdzL0RlZmF1bHQvX0Zvb3RlclBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Areas/Writer/Views/Default/_HeadPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvV3JpdGVyL1ZpZXdzL0RlZmF1bHQvX0hlYWRQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Areas/Writer/Views/Default/_NavbarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvV3JpdGVyL1ZpZXdzL0RlZmF1bHQvX05hdmJhclBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Areas/Writer/Views/Default/_ScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvV3JpdGVyL1ZpZXdzL0RlZmF1bHQvX1NjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Areas/Writer/Views/Default/_SidebarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvV3JpdGVyL1ZpZXdzL0RlZmF1bHQvX1NpZGViYXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Areas/Writer/Views/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvV3JpdGVyL1ZpZXdzL1JlZ2lzdGVyL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWJvdXQvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -204,6 +232,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Views/Shared/_WriterLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Xcml0ZXJMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Views/Skill/AddSkill.cshtml]

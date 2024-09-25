@@ -28,6 +28,11 @@
     </ItemGroup>
 
     <ItemGroup>
+      <Folder Include="Areas\Writer\Controllers\" />
+      <Folder Include="Areas\Writer\Data\" />
+      <Folder Include="Areas\Writer\Models\" />
+      <Folder Include="Areas\Writer\Views\Default\" />
+      <Folder Include="Areas\Writer\Views\Register\" />
       <Folder Include="Views\About\" />
       <Folder Include="Views\Experience\" />
       <Folder Include="Views\Portfolio\" />
