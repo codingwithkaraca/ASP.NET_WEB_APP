@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DataAccessLayer.Concretes;
 
-public class Context: IdentityDbContext
+public class Context: IdentityDbContext<WriterUser, WriterRole, int>
 {
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

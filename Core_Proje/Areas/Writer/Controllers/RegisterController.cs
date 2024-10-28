@@ -13,7 +13,7 @@ namespace Core_Proje.Areas.Writer.Controllers
         }
         
         [HttpPost]
-        public ActionResult Index(UserRegisterViewModel p)
+        public ActionResult Index(UserRegisterVM p)
         {
             if (ModelState.IsValid)
             {

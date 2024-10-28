@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Core_Proje.Areas.Writer.Models;
 
-public class UserRegisterViewModel
+public class UserRegisterVM
 {
     [Required(ErrorMessage = "Lütfen Kullanıcı Adı Girin")] 
     public string UserName { get; set; }
