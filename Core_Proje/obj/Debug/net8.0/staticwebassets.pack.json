@@ -16113,20 +16113,36 @@
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/lib/jquery/LICENSE.txt",
-      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/lib/jquery/jquery-3.7.1.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/jquery-3.7.1.min.js"
     },
     {
-      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/lib/jquery/dist/jquery.js",
-      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/lib/toastr/.gitattributes",
+      "PackagePath": "staticwebassets/lib/toastr/.gitattributes"
     },
     {
-      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/lib/jquery/dist/jquery.min.js",
-      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/lib/toastr/.jscsrc",
+      "PackagePath": "staticwebassets/lib/toastr/.jscsrc"
     },
     {
-      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/lib/jquery/dist/jquery.min.map",
-      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/lib/toastr/.jshintrc",
+      "PackagePath": "staticwebassets/lib/toastr/.jshintrc"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/lib/toastr/.npmignore",
+      "PackagePath": "staticwebassets/lib/toastr/.npmignore"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/lib/toastr/.travis.yml",
+      "PackagePath": "staticwebassets/lib/toastr/.travis.yml"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/lib/toastr/toastr.min.css",
+      "PackagePath": "staticwebassets/lib/toastr/toastr.min.css"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/lib/toastr/toastr.min.js",
+      "PackagePath": "staticwebassets/lib/toastr/toastr.min.js"
     },
     {
       "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/skydash/.gitattributes",

@@ -7,9 +7,9 @@
 /Users/alperkaraca/RiderProjects/WebApplication1/EntityLayer/obj/Debug/net8.0/EntityLayer.AssemblyInfoInputs.cache
 /Users/alperkaraca/RiderProjects/WebApplication1/EntityLayer/obj/Debug/net8.0/EntityLayer.AssemblyInfo.cs
 /Users/alperkaraca/RiderProjects/WebApplication1/EntityLayer/obj/Debug/net8.0/EntityLayer.csproj.CoreCompileInputs.cache
+/Users/alperkaraca/RiderProjects/WebApplication1/EntityLayer/obj/Debug/net8.0/EntityLayer.sourcelink.json
 /Users/alperkaraca/RiderProjects/WebApplication1/EntityLayer/obj/Debug/net8.0/EntityLayer.dll
 /Users/alperkaraca/RiderProjects/WebApplication1/EntityLayer/obj/Debug/net8.0/refint/EntityLayer.dll
 /Users/alperkaraca/RiderProjects/WebApplication1/EntityLayer/obj/Debug/net8.0/EntityLayer.pdb
 /Users/alperkaraca/RiderProjects/WebApplication1/EntityLayer/obj/Debug/net8.0/EntityLayer.genruntimeconfig.cache
 /Users/alperkaraca/RiderProjects/WebApplication1/EntityLayer/obj/Debug/net8.0/ref/EntityLayer.dll
-/Users/alperkaraca/RiderProjects/WebApplication1/EntityLayer/obj/Debug/net8.0/EntityLayer.sourcelink.json

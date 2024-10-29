@@ -11,10 +11,10 @@
 /Users/alperkaraca/RiderProjects/WebApplication1/BusinessLayer/obj/Debug/net8.0/BusinessLayer.AssemblyInfoInputs.cache
 /Users/alperkaraca/RiderProjects/WebApplication1/BusinessLayer/obj/Debug/net8.0/BusinessLayer.AssemblyInfo.cs
 /Users/alperkaraca/RiderProjects/WebApplication1/BusinessLayer/obj/Debug/net8.0/BusinessLayer.csproj.CoreCompileInputs.cache
+/Users/alperkaraca/RiderProjects/WebApplication1/BusinessLayer/obj/Debug/net8.0/BusinessLayer.sourcelink.json
 /Users/alperkaraca/RiderProjects/WebApplication1/BusinessLayer/obj/Debug/net8.0/BusinessLayer.csproj.CopyComplete
 /Users/alperkaraca/RiderProjects/WebApplication1/BusinessLayer/obj/Debug/net8.0/BusinessLayer.dll
 /Users/alperkaraca/RiderProjects/WebApplication1/BusinessLayer/obj/Debug/net8.0/refint/BusinessLayer.dll
 /Users/alperkaraca/RiderProjects/WebApplication1/BusinessLayer/obj/Debug/net8.0/BusinessLayer.pdb
 /Users/alperkaraca/RiderProjects/WebApplication1/BusinessLayer/obj/Debug/net8.0/BusinessLayer.genruntimeconfig.cache
 /Users/alperkaraca/RiderProjects/WebApplication1/BusinessLayer/obj/Debug/net8.0/ref/BusinessLayer.dll
-/Users/alperkaraca/RiderProjects/WebApplication1/BusinessLayer/obj/Debug/net8.0/BusinessLayer.sourcelink.json
