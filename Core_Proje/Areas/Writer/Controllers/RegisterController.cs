@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Core_Proje.Areas.Writer.Controllers
 {
-   [Area("Writer")] 
+    [Area("Writer")]
     public class RegisterController : Controller
     {
         private readonly UserManager<WriterUser> _userManager;
@@ -15,44 +15,42 @@ namespace Core_Proje.Areas.Writer.Controllers
         {
             _userManager = userManager;
         }
-        
+
         [HttpGet]
         public ActionResult Index()
         {
             return View();
         }
-        
+
         [HttpPost]
         public async Task<ActionResult> Index(UserRegisterVM p)
         {
-            if (ModelState.IsValid)
+            WriterUser wr = new WriterUser()
             {
-                WriterUser wr = new WriterUser()
-                {
-                    Name = p.Name,
-                    Surname = p.Surname,
-                    UserName = p.UserName,
-                    Email = p.Mail,
-                    ImageUrl = p.ImageUrl,
-                };
-                
+                Name = p.Name,
+                Surname = p.Surname,
+                UserName = p.UserName,
+                Email = p.Mail,
+                ImageUrl = p.ImageUrl,
+            };
+            if (p.Password == p.ConfirmPassword)
+            {
                 var result = await _userManager.CreateAsync(wr, p.Password);
 
                 if (result.Succeeded)
                 {
-                    string message = "kayıt başarıyla eklendi";
-                    return Json(new { success = true, message});
-                    //return RedirectToAction("Index", "Login");
+                    return RedirectToAction("Index", "Login");
                 }
                 else
                 {
-                    var errorMessages = result.Errors.Select(e => e.Description).ToList();
-                    return Json(new { success = false, errors = errorMessages });
+                    foreach (var error in result.Errors)
+                    {
+                        ModelState.AddModelError(string.Empty, error.Description);
+                    }
                 }
             }
-
-            return View();
+            
+            return View(p);
         }
-
     }
 }

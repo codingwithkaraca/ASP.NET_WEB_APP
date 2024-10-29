@@ -1,4 +1,5 @@
-﻿<head>
+﻿@model Core_Proje.Areas.Writer.Models.UserRegisterVM
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -30,35 +31,42 @@
                         <h4>Bir hesaınız yok mu?</h4>
                         <h6 class="font-weight-light">Sen de hemen kayıt olabilirsin.</h6>
                         <form class="pt-3" id="registerForm" method="post">
-                            @Html.AntiForgeryToken()
                             <div class="form-group">
-                                <label for="Name">Adınız</label>
-                                <input type="text" id="formName" name="Name" class="form-control"/>
+                                <label>Ad</label>
+                                <span asp-validation-for="Name" class="text-danger"></span>
+                                <input type="text" asp-for="Name" class="form-control"/>
                             </div>
                             <div class="form-group">
-                                <label for="Surname">Soyadınız</label>
-                                <input type="text" id="formSurname" name="Surname" class="form-control"/>
+                                <label>Soyad</label>
+                                <span asp-validation-for="Surname" class="text-danger"></span>
+                                <input type="text" asp-for="Surname" class="form-control"/>
                             </div>
                             <div class="form-group">
-                                <label for="ImageUrl">Görsel URL</label>
-                                <input type="text" id="formImageUrl" name="ImageUrl" class="form-control"/>
+                                <label>Görsel Url</label>
+                                <span asp-validation-for="ImageUrl" class="text-danger"></span>
+                                <input type="text" asp-for="ImageUrl" class="form-control"/>
                             </div>
                             <div class="form-group">
-                                <label for="UserName">Kullanıcı Adı</label>
-                                <input type="text" id="formUserName" name="UserName" class="form-control"/>
+                                <label>Kullanıcı Adı</label>
+                                <span asp-validation-for="UserName" class="text-danger"></span>
+                                <input type="text" asp-for="UserName" class="form-control"/>
                             </div>
                             <div class="form-group">
-                                <label for="Password">Şifre</label>
-                                <input type="text" id="formPassword" name="Password" class="form-control"/>
+                                <label>Mail</label>
+                                <span asp-validation-for="Mail" class="text-danger"></span>
+                                <input type="text" asp-for="Mail" class="form-control"/>
                             </div>
                             <div class="form-group">
-                                <label for="ConfirmPassword">Şifre Tekrar</label>
-                                <input type="text" id="formConfirmPassword" name="ConfirmPassword" class="form-control"/>
+                                <label>Şifre</label>
+                                <span asp-validation-for="Password" class="text-danger"></span>
+                                <input type="text" asp-for="Password" class="form-control"/>
                             </div>
                             <div class="form-group">
-                                <label for="Mail">Mail</label>
-                                <input type="text" id="formMail" name="Mail" class="form-control"/>
+                                <label>Şifre Tekrar</label>
+                                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                                <input type="text" asp-for="ConfirmPassword" class="form-control"/>
                             </div>
+
                             @*<div class="mb-4">
                                 <div class="form-check">
                                     <label class="form-check-label text-muted">
@@ -71,7 +79,7 @@
 
                             </div>
                             <div class="mt-3">
-                                <button type="submit" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn">Kayıt Ol</button>
+                                <button class="btn btn-primary">Kayıt Ol</button>
                             </div>
                             @*<div class="text-center mt-4 font-weight-light">
                                 Already have an account? <a href="login.html" class="text-primary">Login</a>
@@ -88,11 +96,12 @@
 
 </body>
 
-@* jquery lib ekle *@
+@*
+$1$ jquery lib ekle #1#
 <script src="~/lib/jquery/jquery-3.7.1.min.js"></script>
 <script src="~/lib/toastr/toastr.min.js"></script>
 
-@* submit olduğunda ajax ile controllera veri gönder *@
+$1$ submit olduğunda ajax ile controllera veri gönder #1#
 <script>
     
     $("#registerForm").submit(function (event){
@@ -119,6 +128,9 @@
                     })
                 }
             },
+            error: function (error){
+                toastr.error(error.message)
+            }
         })
         
     }) 
@@ -133,4 +145,4 @@
         $("#formMail").val("")
     } 
     
-</script>
+</script>*@
