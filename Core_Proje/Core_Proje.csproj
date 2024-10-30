@@ -33,6 +33,7 @@
       <Folder Include="Areas\Writer\Data\" />
       <Folder Include="Areas\Writer\Views\Default\" />
       <Folder Include="Areas\Writer\Views\Login\" />
+      <Folder Include="Areas\Writer\Views\Profile\" />
       <Folder Include="Areas\Writer\Views\Register\" />
       <Folder Include="Views\About\" />
       <Folder Include="Views\Experience\" />
@@ -45,6 +46,7 @@
       <Folder Include="Views\Shared\Components\TodoList\" />
       <Folder Include="Views\Shared\Components\VisitorMap\" />
       <Folder Include="Views\Test\" />
+      <Folder Include="wwwroot\userimage\" />
     </ItemGroup>
 
 </Project>

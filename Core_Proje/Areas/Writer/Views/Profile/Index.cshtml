@@ -1,0 +1,42 @@
+﻿@model Core_Proje.Areas.Writer.Models.UserEditVM
+@{
+    Layout = "_WriterLayout";
+}
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Profilim</h4>
+            <form class="forms-sample" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label>Adınız</label>
+                    <input type="text" asp-for="Name" class="form-control" placeholder="Ad">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputSurname">Soyadınız</label>
+                    <input type="text" asp-for="Surname" class="form-control" id="exampleInputSurname" placeholder="Soyad">
+                </div>
+                <div class="form-group">
+                    <label >Şifre</label>
+                    <input  class="form-control"  placeholder="Şifre">
+                </div>
+                <div class="form-group">
+                    <label>Şifre Tekrar</label>
+                    <input class="form-control"  placeholder="Şifre Tekrar">
+                </div>
+                <div class="form-group">
+                    <label>Resim Seç</label>
+                    <input type="file" asp-for="Picture">
+                    @*<div class="input-group col-xs-12">
+                        <input type="text" class="form-control file-upload-info" disabled placeholder="Resim Yükle">
+                        <span class="input-group-append">
+                            <button class="file-upload-browse btn btn-primary" type="button">Yükle</button>
+                        </span>
+                    </div>*@
+                </div>
+                <button type="submit" class="btn btn-primary mr-2">Güncelle</button>
+                <button class="btn btn-light">İptal</button>
+            </form>
+        </div>
+    </div>
+</div>
