@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Areas/Writer/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvV3JpdGVyL1ZpZXdzL0Rhc2hib2FyZC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Areas/Writer/Views/Default/AnnouncementDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvV3JpdGVyL1ZpZXdzL0RlZmF1bHQvQW5ub3VuY2VtZW50RGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

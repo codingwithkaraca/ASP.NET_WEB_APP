@@ -31,6 +31,7 @@
 
     <ItemGroup>
       <Folder Include="Areas\Writer\Data\" />
+      <Folder Include="Areas\Writer\Views\Dashboard\" />
       <Folder Include="Areas\Writer\Views\Default\" />
       <Folder Include="Areas\Writer\Views\Login\" />
       <Folder Include="Areas\Writer\Views\Profile\" />
