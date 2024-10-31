@@ -29,7 +29,7 @@
                 <div class="weather-info">
                     <div class="d-flex">
                         <div>
-                            <h2 class="mb-0 font-weight-normal"><i class="icon-sun mr-2"></i>14<sup>C</sup></h2>
+                            <h2 class="mb-0 font-weight-normal"><i class="icon-sun mr-2"></i>@ViewBag.v5<sup>C</sup></h2>
                         </div>
                         <div class="ml-2">
                             <h4 class="location font-weight-normal">Konya</h4>
@@ -45,18 +45,16 @@
             <div class="col-md-6 mb-4 stretch-card transparent">
                 <div class="card card-tale">
                     <div class="card-body">
-                        <p class="mb-4">Today’s Bookings</p>
-                        <p class="fs-30 mb-2">4006</p>
-                        <p>10.00% (30 days)</p>
+                        <p class="mb-4">Toplam Mesaj Sayısı</p>
+                        <p class="fs-30 mb-2">@ViewBag.v1</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 mb-4 stretch-card transparent">
                 <div class="card card-dark-blue">
                     <div class="card-body">
-                        <p class="mb-4">Total Bookings</p>
-                        <p class="fs-30 mb-2">61344</p>
-                        <p>22.00% (30 days)</p>
+                        <p class="mb-4">Duyuru Sayısı</p>
+                        <p class="fs-30 mb-2">@ViewBag.v2</p>
                     </div>
                 </div>
             </div>
@@ -65,18 +63,16 @@
             <div class="col-md-6 mb-4 mb-lg-0 stretch-card transparent">
                 <div class="card card-light-blue">
                     <div class="card-body">
-                        <p class="mb-4">Number of Meetings</p>
-                        <p class="fs-30 mb-2">34040</p>
-                        <p>2.00% (30 days)</p>
+                        <p class="mb-4">Toplam Kullanıcı Sayısı</p>
+                        <p class="fs-30 mb-2">@ViewBag.v3</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 stretch-card transparent">
                 <div class="card card-light-danger">
                     <div class="card-body">
-                        <p class="mb-4">Number of Clients</p>
-                        <p class="fs-30 mb-2">47033</p>
-                        <p>0.22% (30 days)</p>
+                        <p class="mb-4">Toplam Yetenek Sayısı</p>
+                        <p class="fs-30 mb-2">@ViewBag.v4</p>
                     </div>
                 </div>
             </div>
@@ -88,8 +84,8 @@
     <div class="col-md-6 grid-margin stretch-card">
         <div class="card">
             <div class="card-body">
-                <p class="card-title">Order Details</p>
-                <p class="font-weight-500">The total number of sessions within the date range. It is the period time a user is actively engaged with your website, page or app, etc</p>
+                <p class="card-title">Yazarlar paneli</p>
+                <p class="font-weight-500">Yazarlar için mesaj,duyuru paneli.</p>
                 <canvas id="order-chart"></canvas>
             </div>
         </div>
@@ -98,10 +94,9 @@
         <div class="card">
             <div class="card-body">
                 <div class="d-flex justify-content-between">
-                    <p class="card-title">Sales Report</p>
-                    <a href="#" class="text-info">View all</a>
+                    <p class="card-title">Yardım Menüsü</p>
                 </div>
-                <p class="font-weight-500">The total number of sessions within the date range. It is the period time a user is actively engaged with your website, page or app, etc</p>
+                <p class="font-weight-500">Uygulama kullanırırken takılırsanız bize ulaşın.</p>
             </div>
         </div>
     </div>

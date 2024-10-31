@@ -26,6 +26,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Areas/Writer/Views/Shared/Components/NotificationPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Areas/Writer/Views/Announcement/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvV3JpdGVyL1ZpZXdzL0Fubm91bmNlbWVudC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Areas/Writer/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvV3JpdGVyL1ZpZXdzL0Rhc2hib2FyZC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -62,12 +70,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvV3JpdGVyL1ZpZXdzL0xvZ2luL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Areas/Writer/Views/Message/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvV3JpdGVyL1ZpZXdzL01lc3NhZ2UvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Areas/Writer/Views/Profile/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvV3JpdGVyL1ZpZXdzL1Byb2ZpbGUvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Areas/Writer/Views/Register/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvV3JpdGVyL1ZpZXdzL1JlZ2lzdGVyL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Areas/Writer/Views/Shared/Components/Notification/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvV3JpdGVyL1ZpZXdzL1NoYXJlZC9Db21wb25lbnRzL05vdGlmaWNhdGlvbi9EZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Areas/Writer/Views/_ViewImports.cshtml]

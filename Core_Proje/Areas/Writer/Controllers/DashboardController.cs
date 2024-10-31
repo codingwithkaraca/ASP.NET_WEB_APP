@@ -1,3 +1,6 @@
+using System.Reflection.Metadata;
+using System.Xml.Linq;
+using DataAccessLayer.Concretes;
 using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -20,6 +23,22 @@ namespace Core_Proje.Areas.Writer.Controllers
         {
             var value = await _userManager.FindByNameAsync(User.Identity.Name);
             ViewBag.name = value.Name +" "+value.Surname; 
+            
+            // weather api
+            string api = "947837838419f8625cb9befc08e24bbb";
+            string city = "Konya";
+            string connection = "https://api.openweathermap.org/data/2.5/weather?q="+city+"&mode=xml&lang=tr&units=metric&appid="+api;
+            XDocument doc = XDocument.Load(connection);
+            ViewBag.v5 = doc.Descendants("temperature").ElementAt(0).Attribute("value").Value;
+                
+                
+            // statistics 
+            Context c = new Context();
+            // toplam mesaj sayısı
+            ViewBag.v1 = 0;
+            ViewBag.v2 =  c.Announcements.Count();
+            ViewBag.v3 = 0;
+            ViewBag.v4 =  c.Skills.Count();
             return View();
         }
 
