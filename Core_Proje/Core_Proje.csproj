@@ -39,6 +39,7 @@
       <Folder Include="Areas\Writer\Views\Profile\" />
       <Folder Include="Areas\Writer\Views\Register\" />
       <Folder Include="Areas\Writer\Views\Shared\" />
+      <Folder Include="Areas\Writer\Views\Shared\Components\Navbar\" />
       <Folder Include="Areas\Writer\Views\Shared\Components\Notification\" />
       <Folder Include="Views\About\" />
       <Folder Include="Views\Experience\" />
@@ -52,10 +53,6 @@
       <Folder Include="Views\Shared\Components\VisitorMap\" />
       <Folder Include="Views\Test\" />
       <Folder Include="wwwroot\userimage\" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <AdditionalFiles Include="Areas\Writer\Views\Shared\Components\NotificationPartial.cshtml" />
     </ItemGroup>
 
 </Project>
