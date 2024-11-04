@@ -31,6 +31,7 @@ public class Context: IdentityDbContext<WriterUser, WriterRole, int>
     public DbSet<UserMessage> UserMessages { get; set; }
     public DbSet<TodoList> TodoLists { get; set; }
     public DbSet<Announcement> Announcements { get; set; }
+    public DbSet<WriterMessage> WriterMessages { get; set; }
 
 
 }

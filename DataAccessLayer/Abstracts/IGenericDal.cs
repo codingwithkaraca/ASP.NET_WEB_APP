@@ -1,3 +1,5 @@
+using System.Linq.Expressions;
+
 namespace DataAccessLayer.Abstracts;
 
 public interface IGenericDal<T> where T : class
@@ -8,5 +10,7 @@ public interface IGenericDal<T> where T : class
     void Update(T t);
     List<T> GetList();
     T GetById(int id);
-    
+
+    List<T> GetbyFilter(Expression<Func<T, bool>> filter);
+
 }

@@ -1,3 +1,4 @@
+using System.Linq.Expressions;
 using DataAccessLayer.Abstracts;
 using DataAccessLayer.Concretes;
 
@@ -36,5 +37,13 @@ public class GenericRepository<T> : IGenericDal<T> where T : class
     {
         using var c = new Context();
         return c.Set<T>().Find(id);
+    }
+
+    public List<T> GetbyFilter(Expression<Func<T, bool>> filter) 
+    {
+        using (var c = new Context())
+        {
+            return c.Set<T>().Where(filter).ToList();
+        }
     }
 }
