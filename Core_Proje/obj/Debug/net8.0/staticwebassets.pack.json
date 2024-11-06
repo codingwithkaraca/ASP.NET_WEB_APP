@@ -23209,6 +23209,18 @@
       "PackagePath": "staticwebassets/userimage/0851cf4c-20e2-4c0b-9880-5a62ad964c36.jpeg"
     },
     {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/userimage/1fb8f868-470e-4a67-a9c2-afe8bed33acf.png",
+      "PackagePath": "staticwebassets/userimage/1fb8f868-470e-4a67-a9c2-afe8bed33acf.png"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/userimage/8765957a-21ca-46e8-8daf-747075f220a9.png",
+      "PackagePath": "staticwebassets/userimage/8765957a-21ca-46e8-8daf-747075f220a9.png"
+    },
+    {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/userimage/ac5fefac-a22b-4696-aae9-4b2bc8eeee8e.png",
+      "PackagePath": "staticwebassets/userimage/ac5fefac-a22b-4696-aae9-4b2bc8eeee8e.png"
+    },
+    {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Core_Proje.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

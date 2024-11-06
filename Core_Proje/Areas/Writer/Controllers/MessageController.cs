@@ -10,7 +10,7 @@ namespace Core_Proje.Areas.Writer.Controllers
 {
     [Area("Writer")]
     //[Authorize]
-    [Route("/Writer/[controller]/[action]]")]
+    [Route("/Writer/Message")]
     public class MessageController : Controller
     {
         private WriterMessageManager _writerMessageManager = new WriterMessageManager(new EfWriterMessageDal());
@@ -21,7 +21,8 @@ namespace Core_Proje.Areas.Writer.Controllers
             _userManager = userManager;
         }
         
-        // GET: MessageController
+        [Route("")]
+        [Route("ReceiverMessage")]
         public async Task<ActionResult> ReceiverMessage(string p)
         {
             var values = await _userManager.FindByNameAsync(User.Identity.Name);
@@ -32,6 +33,8 @@ namespace Core_Proje.Areas.Writer.Controllers
             return View(messageList);
         }
         
+        [Route("")]
+        [Route("SenderMessage")]
         public async Task<ActionResult> SenderMessage(string p)
         {
             var values = await _userManager.FindByNameAsync(User.Identity.Name);
@@ -42,12 +45,15 @@ namespace Core_Proje.Areas.Writer.Controllers
             return View(messageList);
         }
         
+        [Route("")]
+        [Route("MessageDetails/{id}")]
         public ActionResult MessageDetails(int id)
         {
             var value = _writerMessageManager.TGetById(id);
             return View(value);
         }
         
+        [Route("ReceiverMessageDetails/{id}")]
         public ActionResult ReceiverMessageDetails(int id)
         {
             var value = _writerMessageManager.TGetById(id);
@@ -55,12 +61,16 @@ namespace Core_Proje.Areas.Writer.Controllers
         }
 
         [HttpGet]
+        [Route("")]
+        [Route("SendMessage")]
         public ActionResult SendMessage()
         {
             return View();
         }
         
         [HttpPost]
+        [Route("")]
+        [Route("SendMessage")]
         public async Task<ActionResult> SendMessage(WriterMessage p)
         {
             var values = await _userManager.FindByNameAsync(User.Identity.Name);
