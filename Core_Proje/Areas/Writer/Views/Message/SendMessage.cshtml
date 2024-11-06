@@ -1,0 +1,20 @@
+﻿@model EntityLayer.Concrete.WriterMessage
+@{
+    Layout = "_WriterLayout";
+}
+
+<h1>Yeni Mesaj</h1>
+<br/>
+
+<form class="form-group" method="post">
+    @Html.Label("Alıcı Mail")
+    @Html.TextBoxFor(x => x.Receiver, new { @class = "form-control" })
+    <br/>
+    @Html.Label("Konu")
+    @Html.TextBoxFor(x => x.Subject, new { @class = "form-control" })
+    <br/>
+    @Html.Label("Message")
+    @Html.TextAreaFor(x => x.Content, 10, 3, new { @class = "form-control" })
+    <br/>
+    <button class="btn btn-outline-primary">Gönder</button>
+</form>

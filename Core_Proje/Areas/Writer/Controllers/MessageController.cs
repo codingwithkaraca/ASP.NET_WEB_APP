@@ -1,4 +1,5 @@
 using BusinessLayer.Concrete;
+using DataAccessLayer.Concretes;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Authorization;
@@ -8,7 +9,8 @@ using Microsoft.AspNetCore.Mvc;
 namespace Core_Proje.Areas.Writer.Controllers
 {
     [Area("Writer")]
-    [Authorize]
+    //[Authorize]
+    [Route("/Writer/[controller]/[action]]")]
     public class MessageController : Controller
     {
         private WriterMessageManager _writerMessageManager = new WriterMessageManager(new EfWriterMessageDal());
@@ -50,6 +52,33 @@ namespace Core_Proje.Areas.Writer.Controllers
         {
             var value = _writerMessageManager.TGetById(id);
             return View(value);
+        }
+
+        [HttpGet]
+        public ActionResult SendMessage()
+        {
+            return View();
+        }
+        
+        [HttpPost]
+        public async Task<ActionResult> SendMessage(WriterMessage p)
+        {
+            var values = await _userManager.FindByNameAsync(User.Identity.Name);
+            string mail = values.Email;
+            var name = values.Name+" "+values.Surname;
+            p.Date = Convert.ToDateTime(DateTime.Now.ToShortDateString());
+            p.Sender = mail;
+            p.SenderName = name;
+            Context c = new Context();
+            var usernamesurname = c.Users.Where(x => x.Email == p.Receiver)
+                .Select(y => y.Name + " " + y.Surname)
+                .FirstOrDefault();
+            
+            p.ReceiverName = usernamesurname;
+            
+            _writerMessageManager.TAdd(p);
+            
+            return RedirectToAction("SenderMessage");
         }
 
     }
