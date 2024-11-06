@@ -27,8 +27,6 @@ public class Context: IdentityDbContext<WriterUser, WriterRole, int>
     public DbSet<Skill> Skills { get; set; }
     public DbSet<SocialMedia> SocialMedias { get; set; }
     public DbSet<Testimonial> Testimonials { get; set; }
-    public DbSet<User> Users { get; set; }
-    public DbSet<UserMessage> UserMessages { get; set; }
     public DbSet<TodoList> TodoLists { get; set; }
     public DbSet<Announcement> Announcements { get; set; }
     public DbSet<WriterMessage> WriterMessages { get; set; }
