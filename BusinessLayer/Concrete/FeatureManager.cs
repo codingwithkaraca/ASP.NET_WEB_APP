@@ -37,4 +37,9 @@ public class FeatureManager:IFeatureService
     {
         return _featureDal.GetById(id);
     }
+
+    public List<Feature> TGetListbyFilter()
+    {
+        throw new NotImplementedException();
+    }
 }

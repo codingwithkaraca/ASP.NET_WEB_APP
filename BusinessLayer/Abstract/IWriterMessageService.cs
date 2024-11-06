@@ -2,8 +2,11 @@ using EntityLayer.Concrete;
 
 namespace BusinessLayer.Abstract;
 
-public interface IWriterService : IGenericService<WriterMessage>
+public interface IWriterMessageService : IGenericService<WriterMessage>
 {
+    List<WriterMessage> GetListSenderMessage(string p);
+    List<WriterMessage> GetListReceiverMessage(string p);
+
     
     
 }

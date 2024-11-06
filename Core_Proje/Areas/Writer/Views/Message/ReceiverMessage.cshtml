@@ -15,6 +15,7 @@
                         <th>#</th>
                         <th>Konu</th>
                         <th>Gönderen</th>
+                        <th>Tarih</th>
                         <th>Detaylar</th>
                     </tr>
                     </thead>
@@ -24,9 +25,10 @@
                         <tr>
                             <td>@item.WriterMessageId</td>
                             <td>@item.Subject</td>
+                            <td>@item.SenderName</td>
                             <td>@(((DateTime)item.Date).ToString("dd-MMM-yyyy"))</td>
                             <td>
-                                <a href="/Writer/Default/AnnouncementDetails/@item.WriterMessageId" class="btn btn-outline-primary">Detaylar</a>
+                                <a href="/Writer/Message/MessageDetails/@item.WriterMessageId" class="btn btn-outline-primary">Detaylar</a>
                             </td>
                         </tr>
                     }

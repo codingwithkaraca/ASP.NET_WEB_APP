@@ -38,4 +38,9 @@ public class TestimonialManager : ITestimonialService
     {
         return _testimonialDal.GetById(id);
     }
+
+    public List<Testimonial> TGetListbyFilter()
+    {
+        throw new NotImplementedException();
+    }
 }

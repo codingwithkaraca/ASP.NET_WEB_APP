@@ -38,5 +38,9 @@ public class AnnouncementManager : IAnnouncementService
         var value =  _announcementDal.GetById(id);
         return value;
     }
-    
+
+    public List<Announcement> TGetListbyFilter()
+    {
+        throw new NotImplementedException();
+    }
 }

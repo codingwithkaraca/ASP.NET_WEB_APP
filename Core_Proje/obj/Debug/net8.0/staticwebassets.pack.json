@@ -23205,6 +23205,10 @@
       "PackagePath": "staticwebassets/skydash/vendors/x-editable/bootstrap-editable.min.js"
     },
     {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/userimage/0851cf4c-20e2-4c0b-9880-5a62ad964c36.jpeg",
+      "PackagePath": "staticwebassets/userimage/0851cf4c-20e2-4c0b-9880-5a62ad964c36.jpeg"
+    },
+    {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Core_Proje.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

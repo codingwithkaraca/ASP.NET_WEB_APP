@@ -38,4 +38,9 @@ public class PortfolioManager: IPortfolioService
     {
         return _portfolioDal.GetById(id);
     }
+
+    public List<Portfolio> TGetListbyFilter()
+    {
+        throw new NotImplementedException();
+    }
 }

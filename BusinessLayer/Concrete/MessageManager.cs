@@ -37,4 +37,9 @@ public class MessageManager: IMessageService
     {
         return _messageDal.GetById(id);
     }
+
+    public List<Message> TGetListbyFilter()
+    {
+        throw new NotImplementedException();
+    }
 }

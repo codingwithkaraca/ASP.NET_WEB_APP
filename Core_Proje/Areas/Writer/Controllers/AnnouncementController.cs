@@ -7,11 +7,12 @@ namespace Core_Proje.Areas.Writer.Controllers
     [Authorize]
     public class AnnouncementController : Controller
     {
-        // GET: AnnouncementController
         public ActionResult Index()
         {
             return View();
         }
+        
+        
 
     }
 }

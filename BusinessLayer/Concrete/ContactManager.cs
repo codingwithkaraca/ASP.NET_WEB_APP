@@ -37,4 +37,9 @@ public class ContactManager: IContactService
     {
         return _contactDal.GetById(id);
     }
+
+    public List<Contact> TGetListbyFilter()
+    {
+        throw new NotImplementedException();
+    }
 }

@@ -38,4 +38,9 @@ public class ExperienceManager : IExperienceService
     {
         return _experienceDal.GetById(id);
     }
+
+    public List<Experience> TGetListbyFilter()
+    {
+        throw new NotImplementedException();
+    }
 }

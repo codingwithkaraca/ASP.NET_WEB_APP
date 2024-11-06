@@ -39,6 +39,11 @@ public class UserMessageManager : IUserMessageService
         throw new NotImplementedException();
     }
 
+    public List<UserMessage> TGetListbyFilter()
+    {
+        throw new NotImplementedException();
+    }
+
     public List<UserMessage> GetUserMessageWithUserService()
     {
         return _userMessageDal.GetUserMessagesWithUser();

@@ -37,4 +37,9 @@ public class SkillManager : ISkillService
     {
         return _skillDal.GetById(id);
     }
+
+    public List<Skill> TGetListbyFilter()
+    {
+        throw new NotImplementedException();
+    }
 }

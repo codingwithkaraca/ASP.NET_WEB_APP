@@ -7,7 +7,7 @@ namespace BusinessLayer.Concrete;
 public class ServiceManager: IServiceService
 {
     IServiceDal _serviceDal;
-
+    
     public ServiceManager(IServiceDal serviceDal)
     {
         _serviceDal = serviceDal;
@@ -36,5 +36,10 @@ public class ServiceManager: IServiceService
     public Service TGetById(int id)
     {
         return _serviceDal.GetById(id);
+    }
+
+    public List<Service> TGetListbyFilter()
+    {
+        throw new NotImplementedException();
     }
 }

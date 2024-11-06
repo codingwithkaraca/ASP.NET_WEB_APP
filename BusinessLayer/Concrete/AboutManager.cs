@@ -1,3 +1,4 @@
+using System.Linq.Expressions;
 using BusinessLayer.Abstract;
 using DataAccessLayer.Abstracts;
 using EntityLayer.Concrete;
@@ -37,5 +38,10 @@ public class AboutManager: IAboutService
     public About TGetById(int id)
     {
         return _aboutDal.GetById(id);
+    }
+
+    public List<About> TGetListbyFilter()
+    {
+        throw new NotImplementedException();
     }
 }

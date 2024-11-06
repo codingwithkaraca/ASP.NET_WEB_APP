@@ -37,4 +37,9 @@ public class TodoListManager : ITodoListService
     {
         throw new NotImplementedException();
     }
+
+    public List<TodoList> TGetListbyFilter()
+    {
+        throw new NotImplementedException();
+    }
 }

@@ -37,4 +37,9 @@ public class SocialMediaManager: ISocialMediaService
     {
         return _socialMediaDal.GetById(id);
     }
+
+    public List<SocialMedia> TGetListbyFilter()
+    {
+        throw new NotImplementedException();
+    }
 }

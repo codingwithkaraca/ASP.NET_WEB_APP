@@ -1,0 +1,19 @@
+﻿@model EntityLayer.Concrete.WriterMessage
+@{
+    Layout = "_WriterLayout";
+}
+
+<h1>Mesaj Detayları</h1>
+<br/>
+
+<form class="form-group">
+    @Html.HiddenFor(x => x.WriterMessageId, new { @class = "form-control" })
+    @Html.Label("Gönderen Adı")
+    @Html.TextBoxFor(x => x.SenderName, new { @class = "form-control" })
+    <br/>
+    @Html.Label("Gönderen Mail")
+    @Html.TextBoxFor(x => x.Sender, new { @class = "form-control" })
+    <br/>
+    @Html.Label("Açıklama")
+    @Html.TextAreaFor(x => x.Content, 10, 3, new { @class = "form-control" })
+</form>
