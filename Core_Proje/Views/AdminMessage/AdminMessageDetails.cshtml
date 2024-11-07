@@ -1,0 +1,39 @@
+﻿@model EntityLayer.Concrete.WriterMessage
+@{
+    Layout = "_NewAdminLayout";
+}
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card" style="background-color: #92b09a "> <!-- # 92b09a -->
+        <div class="card-body">
+            <p class="card-description text-dark">Mesaj Detay Sayfası</p>
+            <form class="forms-sample">
+                <div class="form-group">
+                    @Html.HiddenFor(x => x.WriterMessageId, new {@class="form-control"})
+                </div>
+                <div class="form-group">
+                    <label>Başlık</label>
+                    @Html.TextBoxFor(x => x.Subject, new {@class="form-control",@disabled = "disabled", style="background-color: #7aabeb; color: black; cursor: not-allowed;"})
+                </div>
+                <div class="form-group">
+                    <label>Gönderen</label>
+                    @Html.TextBoxFor(x => x.SenderName, new {@class="form-control",@disabled = "disabled", style="background-color: #7aabeb; color: black; cursor: not-allowed;"})
+                </div>
+                <div class="form-group">
+                    <label>Alıcı</label>
+                    @Html.TextBoxFor(x => x.ReceiverName, new {@class="form-control",@disabled = "disabled", style="background-color: #7aabeb; color: black; cursor: not-allowed;"})
+                </div>
+                <div class="form-group">
+                    <label>Tarih</label>
+                    @Html.TextBoxFor(x => x.Date, new {@class="form-control",@disabled = "disabled", style="background-color: #7aabeb; color: black; cursor: not-allowed;"})
+                </div>
+                <div class="form-group">
+                    <label>Mesaj</label>
+                    @Html.TextAreaFor(x => x.Content, 6,3,new {@class="form-control",@disabled = "disabled" ,style="background-color: #7aabeb; color: black; cursor: not-allowed;"})
+                </div>
+                <a class="btn btn-primary" href="/AdminMessage/ReceiverMessageList">Admin Gelen Kutusu</a>
+                <a class="btn btn-primary" href="/AdminMessage/SenderMessageList">Giden Mesajlara Dön</a>
+            </form>
+        </div>
+    </div>
+</div>
