@@ -13,12 +13,7 @@ public class FeatureController : Controller
     [HttpGet]
     public IActionResult Index()
     {
-        ViewBag.v1 = "Düzenleme";
-        ViewBag.v2 = "Öne Çıkanlar";
-        ViewBag.v3 = "Öne Çıkan Sayfası";
-
         var values = featureManager.TGetById(1);
-        
         return View(values);
     }
 
@@ -26,6 +21,6 @@ public class FeatureController : Controller
     public IActionResult Index(Feature feature)
     {
         featureManager.TUpdate(feature);
-        return RedirectToAction("Index","Default");
+        return RedirectToAction("Index","Dashboard");
     }
 }

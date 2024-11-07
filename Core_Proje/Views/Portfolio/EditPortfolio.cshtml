@@ -14,8 +14,7 @@
                 <form class="forms-sample">
 
                     <div class="form-group">
-                        <label>Id</label>
-                        @Html.TextBoxFor(x => x.PortfolioID, new {@class="form-control"})
+                        @Html.HiddenFor(x => x.PortfolioID, new {@class="form-control"})
                     </div>
 
                     <div class="form-group">
@@ -38,7 +37,7 @@
                     </div>
 
                     <button type="submit" class="btn btn-primary mr-2">Kaydet</button>
-                    <button class="btn btn-dark" href="/Experience/Index">İptal</button>
+                    <button class="btn btn-dark" href="/Portfolio/Index">İptal</button>
                 </form>
             </div>
         </div>
