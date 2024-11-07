@@ -13,10 +13,6 @@ namespace Core_Proje.Controllers
         // GET: AboutController
         public IActionResult Index()
         {
-            ViewBag.v1 = "Hakkımda";
-            ViewBag.v2 = "Hakkımda";
-            ViewBag.v3 = "Hakkımda Düzenleme";
-            
             var values = aboutManager.TGetById(1);
             
             return View(values);
