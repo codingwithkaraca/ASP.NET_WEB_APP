@@ -1,0 +1,32 @@
+﻿@model EntityLayer.Concrete.WriterMessage
+@{
+    Layout = "_NewAdminLayout" ;
+}
+
+@using (Html.BeginForm("AdminMessageSend", "AdminMessage", FormMethod.Post))
+{
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <p class="card-description"> Yeni Mesaj Gönder </p>
+                <form class="forms-sample">
+                    <div class="form-group">
+                        <label>Konu</label>
+                        <input asp-for="Subject" type="text" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Mail</label>
+                        <input asp-for="Receiver" type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Açıklama</label>
+                        <textarea rows="8" asp-for="Content" type="text" class="form-control"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary mr-2">Gönder</button>
+                    <button class="btn btn-dark" href="/AdminMessage/SenderMessageList">İptal</button>
+                </form>
+            </div>
+        </div>
+    </div>
+}
