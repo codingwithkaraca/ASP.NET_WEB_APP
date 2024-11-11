@@ -53,6 +53,7 @@
       <Folder Include="Views\Shared\Components\StatisticsDashboard2\" />
       <Folder Include="Views\Shared\Components\TodoList\" />
       <Folder Include="Views\Shared\Components\VisitorMap\" />
+      <Folder Include="Views\Testimonial\" />
       <Folder Include="Views\Test\" />
       <Folder Include="wwwroot\userimage\" />
     </ItemGroup>

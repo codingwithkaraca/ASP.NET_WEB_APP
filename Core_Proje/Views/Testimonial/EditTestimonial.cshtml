@@ -1,0 +1,41 @@
+﻿@using EntityLayer.Concrete
+@model Testimonial
+@{
+    Layout = "_NewAdminLayout";
+}
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <p class="card-description">Portolyo Düzenleme</p>
+            <form class="forms-sample" method="post" asp-action="EditTestimonial" asp-controller="Testimonial">
+                <div class="form-group">
+                    <input asp-for="TestimonialID" class="form-control" hidden="hidden"/>
+                </div>
+                <div class="form-group">
+                    <label>Referans Adı Soyadı</label>
+                    <input asp-for="ClientName" class="form-control"/>
+                </div>
+
+                <div class="form-group">
+                    <label>Şirket</label>
+                    <input asp-for="Company" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label>Başlık</label>
+                    <input asp-for="Title" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label>Resim URL</label>
+                    <input asp-for="ImageUrl" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label>Yorum</label>
+                    <textarea class="form-control" asp-for="Comment" rows="8" cols="10"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary mr-2">Kaydet</button>
+                <a class="btn btn-dark" href="/Testimonial/Index">İptal</a>
+            </form>
+        </div>
+    </div>
+</div>
