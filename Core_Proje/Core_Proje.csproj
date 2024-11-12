@@ -41,7 +41,6 @@
       <Folder Include="Areas\Writer\Views\Shared\" />
       <Folder Include="Areas\Writer\Views\Shared\Components\Navbar\" />
       <Folder Include="Areas\Writer\Views\Shared\Components\Notification\" />
-      <Folder Include="ViewComponents\SocialMedia\" />
       <Folder Include="Views\About\" />
       <Folder Include="Views\AdminMessage\" />
       <Folder Include="Views\ContactSubplace\" />
