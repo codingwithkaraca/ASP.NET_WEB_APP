@@ -42,4 +42,10 @@ public class MessageManager: IMessageService
     {
         throw new NotImplementedException();
     }
+
+    public List<Message> TGetListbyFilter(string p)
+    {
+        //var values = _messageDal.GetbyFilter(p).Take(3);
+        throw new NotImplementedException();
+    }
 }

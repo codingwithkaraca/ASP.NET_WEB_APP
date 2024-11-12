@@ -238,6 +238,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQWJvdXRMaXN0L0RlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Views/Shared/Components/AdminNavbarMessageList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQWRtaW5OYXZiYXJNZXNzYWdlTGlzdC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Views/Shared/Components/AdminNavbarNotificationList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQWRtaW5OYXZiYXJOb3RpZmljYXRpb25MaXN0L0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Views/Shared/Components/ContactDetails/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvQ29udGFjdERldGFpbHMvRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

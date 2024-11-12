@@ -7,10 +7,6 @@ namespace Core_Proje.Controllers
         // GET: DashboardController
         public ActionResult Index()
         {
-            ViewBag.v1 = "Dashboard";
-            ViewBag.v2 = "İstatistikler";
-            ViewBag.v3 = "Öne Çıkanlar Sayfası";
-            
             return View();
         }
         
