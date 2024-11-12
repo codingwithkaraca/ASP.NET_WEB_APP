@@ -1,0 +1,36 @@
+﻿@model EntityLayer.Concrete.Contact
+@{
+    ViewData["Title"] = "Edit Contact";
+    Layout = "_NewAdminLayout";
+}
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <p class="card-description">Alt iletişim bilgileri düzenleme</p>
+            <form class="forms-sample" method="post" asp-action="Index" asp-controller="ContactSubplace">
+                <div class="form-group">
+                    <input asp-for="ContactID" hidden="hidden" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label>Başlık</label>
+                    <input asp-for="Title" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label>Telefon</label>
+                    <input asp-for="Phone" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label>Mail</label>
+                    <input asp-for="Mail" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label>Açıklama</label>
+                    <textarea asp-for="Description" class="form-control" cols="3" rows="6"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary mr-2">Kaydet</button>
+                <a class="btn btn-dark" href="/ContactSubplace/Index">İptal</a>
+            </form>
+        </div>
+    </div>
+</div>

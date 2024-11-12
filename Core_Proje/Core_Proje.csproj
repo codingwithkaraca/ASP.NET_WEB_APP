@@ -41,8 +41,10 @@
       <Folder Include="Areas\Writer\Views\Shared\" />
       <Folder Include="Areas\Writer\Views\Shared\Components\Navbar\" />
       <Folder Include="Areas\Writer\Views\Shared\Components\Notification\" />
+      <Folder Include="ViewComponents\SocialMedia\" />
       <Folder Include="Views\About\" />
       <Folder Include="Views\AdminMessage\" />
+      <Folder Include="Views\ContactSubplace\" />
       <Folder Include="Views\Contact\" />
       <Folder Include="Views\Experience\" />
       <Folder Include="Views\Portfolio\" />
@@ -50,9 +52,11 @@
       <Folder Include="Views\Shared\Components\MessageList\" />
       <Folder Include="Views\Shared\Components\ProjectList\" />
       <Folder Include="Views\Shared\Components\SlideList\" />
+      <Folder Include="Views\Shared\Components\SocialMediaList\" />
       <Folder Include="Views\Shared\Components\StatisticsDashboard2\" />
       <Folder Include="Views\Shared\Components\TodoList\" />
       <Folder Include="Views\Shared\Components\VisitorMap\" />
+      <Folder Include="Views\SocialMedia\" />
       <Folder Include="Views\Testimonial\" />
       <Folder Include="Views\Test\" />
       <Folder Include="wwwroot\userimage\" />

@@ -1,0 +1,32 @@
+﻿@model EntityLayer.Concrete.SocialMedia
+@{
+    ViewData["Title"] = "Edit Contact";
+    Layout = "_NewAdminLayout";
+}
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <p class="card-description">Sosyal Medya Bilgileri Düzenleme</p>
+            <form class="forms-sample" method="post" asp-action="EditSocialMedia" asp-controller="SocialMedia">
+                <div class="form-group">
+                    <input asp-for="SocialMediaID" hidden="hidden" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label>Başlık</label>
+                    <input asp-for="Name" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label>Url</label>
+                    <input asp-for="Url" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label>Icon</label>
+                    <input asp-for="Icon" class="form-control"/>
+                </div>
+                <button type="submit" class="btn btn-primary mr-2">Kaydet</button>
+                <a class="btn btn-dark" href="/SocialMedia/Index">İptal</a>
+            </form>
+        </div>
+    </div>
+</div>
