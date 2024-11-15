@@ -186,6 +186,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVmYXVsdC9TZW5kTWVzc2FnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Views/ErrorPage/Error404.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXJyb3JQYWdlL0Vycm9yNDA0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Views/ErrorPage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXJyb3JQYWdlL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -368,6 +372,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Views/Testimonial/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVzdGltb25pYWwvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Views/WriterUser/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV3JpdGVyVXNlci9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/Views/_ViewImports.cshtml]

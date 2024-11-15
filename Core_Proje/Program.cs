@@ -51,6 +51,10 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+// bu bizim projemizde son kullanıcı geçersiz bir sayfa linkine gitmek istediğinde
+// anlamlı bir 404 sayfası göstermek için
+app.UseStatusCodePagesWithReExecute("/ErrorPage/Error404");
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 

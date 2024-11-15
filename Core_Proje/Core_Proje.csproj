@@ -61,6 +61,7 @@
       <Folder Include="Views\SocialMedia\" />
       <Folder Include="Views\Testimonial\" />
       <Folder Include="Views\Test\" />
+      <Folder Include="Views\WriterUser\" />
       <Folder Include="wwwroot\userimage\" />
     </ItemGroup>
 

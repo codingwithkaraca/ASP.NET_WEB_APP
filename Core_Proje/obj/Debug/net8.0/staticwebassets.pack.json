@@ -23217,6 +23217,10 @@
       "PackagePath": "staticwebassets/userimage/3bd6b63c-3411-4896-a538-6c575170ba0a.jpeg"
     },
     {
+      "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/userimage/404-page.jpeg",
+      "PackagePath": "staticwebassets/userimage/404-page.jpeg"
+    },
+    {
       "Id": "/Users/alperkaraca/RiderProjects/WebApplication1/Core_Proje/wwwroot/userimage/8765957a-21ca-46e8-8daf-747075f220a9.png",
       "PackagePath": "staticwebassets/userimage/8765957a-21ca-46e8-8daf-747075f220a9.png"
     },
