@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Core_Proje.Areas.Writer.Controllers
 {
     [Area("Writer")]
-    [Authorize]
+    [Route("/Writer/[controller]/[action]")]
     public class DashboardController : Controller
     {
         private readonly UserManager<WriterUser> _userManager;

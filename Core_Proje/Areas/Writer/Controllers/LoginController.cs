@@ -8,7 +8,7 @@ namespace Core_Proje.Areas.Writer.Controllers
 {
     [AllowAnonymous]
     [Area("Writer")]
-    [Route("/Writer/[controller]/[action]")]
+    [Route("/Writer/[controller]/[action]")] 
     public class LoginController : Controller
     {
         private readonly SignInManager<WriterUser> _signInManager;
@@ -32,7 +32,7 @@ namespace Core_Proje.Areas.Writer.Controllers
                 var result = await _signInManager.PasswordSignInAsync(p.UserName, p.Password, true, true);
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("Index", "Profile");
+                    return RedirectToAction("Index", "Dashboard");
                 }
                 else
                 {

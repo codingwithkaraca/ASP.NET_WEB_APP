@@ -66,7 +66,8 @@ namespace Core_Proje_Api.Controllers
             }
             else
             {
-                c.Categories.Remove(value);
+                c.Remove(value);
+                c.SaveChanges();
                 string message = "Başarıyla silindi";
                 return Ok(new { Code = 200, message }); // boş göndermek için NoContent gönderilebilir
             }

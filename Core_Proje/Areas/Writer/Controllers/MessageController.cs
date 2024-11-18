@@ -9,8 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Core_Proje.Areas.Writer.Controllers
 {
     [Area("Writer")]
-    //[Authorize]
-    [Route("/Writer/Message")]
+    [Route("/Writer/[controller]/[action]")]
     public class MessageController : Controller
     {
         private WriterMessageManager _writerMessageManager = new WriterMessageManager(new EfWriterMessageDal());
