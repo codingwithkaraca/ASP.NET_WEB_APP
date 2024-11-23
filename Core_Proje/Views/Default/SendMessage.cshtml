@@ -1,21 +1,102 @@
-@using EntityLayer.Concrete
-@model List<Contact>
+<style>
+    #messageAlert{
+        display: none;
+    }
+    
+</style>
 <div class="col-md-6" data-aos="zoom-in" data-aos-delay="100">
     <div class="bg-light my-2 p-3 pt-2">
-        <form action="/Default/SendMessage" method="post">  
+        <form>
             <div class="form-group my-2">
                 <label for="name" class="form-label fw-bolder">Adınız</label>
-                <input class="form-control" type="text" id="name" name="Name" required>
+                <input class="form-control" name="Name" type="text" id="name" required>
             </div>
             <div class="form-group my-2">
                 <label for="email" class="form-label fw-bolder">Mail Adresiniz</label>
-                <input class="form-control" type="email" id="email" name="Mail" required>
+                <input class="form-control" name="Mail" type="email" id="email" required>
             </div>
             <div class="form-group my-2">
                 <label for="message" class="form-label fw-bolder">Mesajınız</label>
-                <textarea class="form-control" style="resize: none;" id="message" name="Content" rows="4" required></textarea>
+                <textarea class="form-control" name="Content" style="resize: none;" id="message" rows="4" required></textarea>
             </div>
-            <button class="btn btn-primary mt-2" type="submit">Send</button>
+            <button onclick="sendMessage()" class="btn btn-primary mt-2">Send</button>
         </form>
+        <div id="messageAlert">
+        </div>
     </div>
 </div>
+
+<script src="/lib/jquery/jquery-3.7.1.min.js"></script>
+<script src="/lib/toastr/toastr.min.js"></script>
+<script>
+    // ajax ile mesaj gönderme işlemini tamamla
+    function sendMessage()
+    {
+        event.preventDefault();
+        var clientName = document.getElementById('name').value;
+        var clientMail = document.getElementById('email').value;
+        var clientMessage = document.getElementById('message').value;
+        
+        var message = {
+            Name: clientName,
+            Mail: clientMail,
+            Content: clientMessage,
+        }
+        
+        $.ajax({
+            url: "@Url.Action("SendMessage", "Default")",
+            type: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify(message),
+            success: function (result){
+                if (result.code == 200){
+                    clearForm();
+                    let myAlertContainer = document.getElementById('messageAlert');
+                    myAlertContainer.style.display = 'block';
+                    myAlertContainer.style.color = 'green';
+                    document.getElementById('messageAlert').innerText = result.alertMessage;
+                    setTimeout(function (){
+                        myAlertContainer.style.display = 'none';
+                    }, 5000)
+                    //toastr çalıştıramadım 
+                    //toastr.success(result.alertMessage);
+                }
+                else{
+                    let myAlertContainer = document.getElementById('messageAlert');
+                    myAlertContainer.style.display = 'block';
+                    myAlertContainer.style.color = 'red';
+                    document.getElementById('messageAlert').innerText = result.alertMessage;
+                    setTimeout(function (){
+                        myAlertContainer.style.display = 'none';
+                    }, 5000)
+                    //toastr.error(result.alertMessage);
+                }
+            },
+            error: function (error){
+                let alertMes="Mesajınız gönderlirken bir hata oluştu :(";
+                let myAlertContainer = document.getElementById('messageAlert');
+                myAlertContainer.style.display = 'block';
+                myAlertContainer.style.color = 'red';
+                document.getElementById('messageAlert').innerText = alertMes;
+                setTimeout(function (){
+                    myAlertContainer.style.display = 'none';
+                }, 5000)
+
+                //toastr.error("Mesajınız gönderlirken bir hata oluştu :(")
+            }
+            
+            
+        })
+    
+    }
+    
+    function clearForm()
+    {
+        document.getElementById('name').value ='';
+        document.getElementById('email').value ='';
+        document.getElementById('message').value ='';
+    }
+    
+    
+
+</script>

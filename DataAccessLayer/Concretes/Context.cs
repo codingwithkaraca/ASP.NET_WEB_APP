@@ -9,6 +9,10 @@ public class Context: IdentityDbContext<WriterUser, WriterRole, int>
 {
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
+        // Remote
+        //var connectionString = "server=; port=3306; user=alperka5_alper0karaca; password=; database=;";
+        
+        // local
         var connectionString = "server=localhost;port=3306;user=root;password=;database=CoreProjeDB;";
         
         var serverVersion = new MySqlServerVersion(new Version(8, 0, 21));

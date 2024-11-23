@@ -65,4 +65,14 @@
       <Folder Include="wwwroot\userimage\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\lib\toastr\.gitattributes" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\toastr\.jscsrc" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\toastr\.jshintrc" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\toastr\.npmignore" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\toastr\.travis.yml" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\toastr\toastr.min.css" />
+      <_ContentIncludedByDefault Remove="wwwroot\lib\toastr\toastr.min.js" />
+    </ItemGroup>
+
 </Project>

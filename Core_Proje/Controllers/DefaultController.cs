@@ -1,3 +1,4 @@
+using System.Net;
 using BusinessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
@@ -33,13 +34,26 @@ namespace Core_Proje.Controllers
         }
         
         [HttpPost] 
-        public PartialViewResult SendMessage(Message p)
+        public IActionResult SendMessage([FromBody] Message message)
         {
-            MessageManager messageManager = new MessageManager(new EfMessageDal());
-            p.Date = Convert.ToDateTime(DateTime.Now.ToString());
-            p.Status = true;
-            messageManager.TAdd(p);
-            return PartialView();
+            if (ModelState.IsValid)
+            {
+                MessageManager messageManager = new MessageManager(new EfMessageDal());
+                message.Date = DateTime.Now;
+                message.Status = true;
+                messageManager.TAdd(message);
+
+                //return RedirectToAction("Index", "Default");
+                string alertMessage = "Mesajınız iletildi :)";
+                return Ok(new { Code = HttpStatusCode.OK, alertMessage });
+            }
+            else
+            {
+                string alertMessage = "Mesaj Gönderilemedi :(";
+                return Ok(new { Code = HttpStatusCode.BadRequest, alertMessage });
+            }
+
+            
         }
 
     }
